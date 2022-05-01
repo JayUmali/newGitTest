@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+nav {
+    padding: 1em 0em;
+    background-color: #ea8823;
+    display: flex;
+    position: fixed;
+    margin: 0 ;
+    
+
+}
+
+.nav-left {
+    padding-left: 3em;
+    font-weight: 700;
+    font-size: 3em;
+    margin-right: 13em;
+    text-align: left;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: right;
+    margin-right: 9em;
+    text-align: right;
+    
+}
+
+.nav-right p {
+    margin-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    color:black
+}
+
+nav a:hover {
+    color:white;
+    font-size: 1.5em;
+    transition: 0.5s ease-in-out;
+}
+
+#home{
+    padding: 10em 10em;
+    display:flex;
+    background-color: black;
+    color: white;
+}
+
+.home-left {
+    margin-right: 2em;
+    margin-top: 1.5em;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.mid-name {
+    color:#ea8823
+}
+
+.home-mid {
+    margin-left: .5em;
+    margin-right: 2em;
+}
+
+.home-mid img {
+    border-bottom-right-radius: 1em;
+}
+
+.home-right {
+    margin-top: 1em;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+#aboutMe {
+    padding: 15em 10em;
+    display: flex;
+    background-color: #ea8823;
+}
+
+ .about-left {
+    font-family: 'Water Brush', cursive;
+     font-weight: 700;
+     font-size: 5em;
+     color: white;
+     margin-right: 1em;
+ }
+
+ .about-mid {
+    font-size: 1em;
+    text-align: justify;
+    margin-right: 2em;
+ }
+.about-right img {
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+ #skills {
+    padding: 15em 10em;
+    display: flex;
+    background-color: white;
+ }
+
+ .skills-left span {
+    margin: 1em 1em 1em 1em;
+ }
+
+ .skills-mid {
+    font-family: 'Water Brush', cursive;
+     font-size: 5em;
+     font-weight: bold;
+     margin: 1em 1em;
+ }
+
+ .skills-right span {
+    margin: 1em 1em 1em 1em;
+ }
+
+ #education {
+    padding: 12em 10em;
+    display: flex;
+    background-color: black;
+    color: #ea8823;
+ }
+
+.educ-left {
+    font-size: 1.5em;
+    font-weight: 400;
+  
+}
+
+ .educ-right {
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    margin-left: 1.5em;
+ }
+
+ .educ-right span {
+    font-family: 'Water Brush', cursive;
+ }
+ .vocation {
+     margin-top: 2em;
+    font-size: 1.5rem;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-top-right-radius: 3em;
+    padding: 2.5rem;
+
+ }
+
+ td {
+     font-weight: 700;
+     padding-right: 0.3em;
+     padding-bottom: 0.3em;
+ }
+
+ .colcourse {
+     font-style:italic;
+     font-weight: 400;
+     color: white;
+ }
+ 
+ .logo {
+     font-size: 2em;
+     font-weight: 700;
+ }
+
+ #contact {
+    padding-top: 4em;
+    padding-bottom: 8em;
+    background-color:#ea8823;
+    text-align: center;
+ }
+
+#contact p {
+    font-size: 5em;
+    color: white;
+    
+ }
+
+ .email {
+     font-weight: 700;
+ }
+
+ .email2 {
+    font-family: 'Water Brush', cursive;
+    font-size: 5em;
+ }
+
+ .contact-below {
+     margin-top: 4em;
+     margin-left: 11em;
+     font-size: 2rem;
+     display: flex;
+}
+
+.contact-left {
+    margin-right: 4em;
+    font-weight: 600;
+}
+
+.contact-right img {
+    margin-right: 1em;
+
+}
+
+.contact-right img:hover {
+    width: 2em;
+}
